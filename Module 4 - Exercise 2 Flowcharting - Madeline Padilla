@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ZfhVhu0ulkti2mQA84BA">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-3" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-5" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-2" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="choose a random page in the dictionary&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-7" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-4" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="look at the word on the page&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="120" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-10" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-9" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-14" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Is it the chosen word?" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-12" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="Diisplay &quot;Found Computer&quot;" vertex="1">
+          <mxGeometry height="70" width="130" x="150" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-11" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="165" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-21" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-22" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-26" connectable="0" parent="V_OBAX5hJRyLinxA4kiv-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="-0.0435" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-23" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-25" connectable="0" parent="V_OBAX5hJRyLinxA4kiv-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="0.0435" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Does the target word come alphabetically&amp;nbsp; AFTER page?&amp;nbsp;" vertex="1">
+          <mxGeometry height="120" width="210" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-29" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-20" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Flip backward" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-28" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-24" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Flip foward" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-30" edge="1" parent="1" source="V_OBAX5hJRyLinxA4kiv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="V_OBAX5hJRyLinxA4kiv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-27" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Look at the next page/word" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="V_OBAX5hJRyLinxA4kiv-31" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
