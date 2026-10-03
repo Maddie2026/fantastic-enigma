@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="M7kvWWlJsLz6rceMFmj8">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t5_idbrEeb-gBT4LD24L-3" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="start" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-6" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="basic rate =$5.00&lt;div&gt;over 100 text msg but under 300= .03 cents x each text&lt;/div&gt;&lt;div&gt;over 300 text= .02 cents x each text&lt;/div&gt;&lt;div&gt;taxes=14%&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="300" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-8" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="input three digit area code&lt;div&gt;seven digit phone number&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="220" x="320" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-10" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-7" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;size=0.23;arcSize=10;flipV=1;labelPosition=center;align=center;legacyAnchorPoints=0;" value="calculate text messages" vertex="1">
+          <mxGeometry height="60" width="100" x="380" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-12" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-11" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-25" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-24" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="is text messages&amp;nbsp;&lt;div&gt;over 100&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="105" x="377.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-15" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate basic rate=$5.00&amp;nbsp;" vertex="1">
+          <mxGeometry height="100" width="90" x="180" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-20" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="diplay total&lt;div&gt;&amp;nbsp;before taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="175" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-21" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate basic rate=$5.00 x taxes=14%&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="80" x="185" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-43" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="Display monthly&amp;nbsp;&lt;div&gt;total after taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="175" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-31" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate basic rate=$5.00&lt;div&gt;+&lt;/div&gt;&lt;div&gt;(.03)x each text&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="90" x="555" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-28" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-35" connectable="0" parent="t5_idbrEeb-gBT4LD24L-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="yes" vertex="1">
+          <mxGeometry relative="1" x="-0.048" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-29" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-22" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-24" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="is over 300&amp;nbsp;&lt;div&gt;texts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-38" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate basic rate=$5.00&lt;div&gt;+&lt;/div&gt;&lt;div&gt;(.03x300)=3.00&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(.02)x each text&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="730" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-33" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-30" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="display total&amp;nbsp;&lt;div&gt;before taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="550" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-36" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate total&lt;div&gt;x&lt;/div&gt;&lt;div&gt;taxes=14%&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="90" x="555" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-46" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-34" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="Display monthly&amp;nbsp;&lt;div&gt;total after taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="550" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-40" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="Display total&amp;nbsp;&lt;div&gt;before taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="730" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-48" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="calculate total&lt;div&gt;x&lt;/div&gt;&lt;div&gt;taxes=14%&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="740" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-47" edge="1" parent="1" source="t5_idbrEeb-gBT4LD24L-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t5_idbrEeb-gBT4LD24L-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-41" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" value="Display monthly&amp;nbsp;&lt;div&gt;total after taxes&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="730" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-42" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="175" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-44" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="550" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="t5_idbrEeb-gBT4LD24L-45" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="730" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
