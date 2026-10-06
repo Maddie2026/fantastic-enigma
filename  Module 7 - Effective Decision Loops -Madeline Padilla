@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="yZFuiZYAnh0SXlZh2A3d">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-4" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="start" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-9" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-8" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="sum total=0&lt;div&gt;count=0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-17" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="input number&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="80" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-16" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-15" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-21" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="is number =0?" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-19" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-15" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Display &quot;correct&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-18" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="end" vertex="1">
+          <mxGeometry height="60" width="100" x="170" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-23" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gsaq51n-F3lsc6yeDxbn-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-20" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="Display sum total=&amp;nbsp;&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="count= count +1" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-32" edge="1" parent="1" source="gsaq51n-F3lsc6yeDxbn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.437;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572.4" y="600" />
+              <mxPoint x="700" y="600" />
+              <mxPoint x="700" y="230" />
+              <mxPoint x="440" y="230" />
+            </Array>
+            <mxPoint x="530" y="515" as="sourcePoint" />
+            <mxPoint x="440" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gsaq51n-F3lsc6yeDxbn-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;&lt;br/&gt;line-height:18.0pt;mso-outline-level:2;background:white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 16.5pt; font-family: Arial, sans-serif;&quot;&gt;Logic Design (Step-by-Step)&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-size:16.5pt;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&lt;br/&gt;&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;br/&gt;&lt;br/&gt;&lt;ol start=&quot;1&quot; type=&quot;1&quot;&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in;background:&lt;br/&gt;     white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Start&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;     mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:0pt;mso-ligatures:&lt;br/&gt;     none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in;background:&lt;br/&gt;     white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Initialize&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt; a&lt;br/&gt;     variable &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;sum&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt; to &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family:&lt;br/&gt;     &amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:&lt;br/&gt;     0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in;background:&lt;br/&gt;     white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Loop&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;font-family:&lt;br/&gt;     &amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:&lt;br/&gt;     0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt; &lt;ul type=&quot;circle&quot;&gt;&lt;br/&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;      line-height:normal;mso-list:l0 level2 lfo1;tab-stops:list 1.0in;&lt;br/&gt;      background:white&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Prompt the user to enter a number.&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;      mso-font-kerning:0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;      line-height:normal;mso-list:l0 level2 lfo1;tab-stops:list 1.0in;&lt;br/&gt;      background:white&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;If the number is &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;, &lt;b&gt;stop&lt;/b&gt; the loop.&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;      mso-font-kerning:0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;      line-height:normal;mso-list:l0 level2 lfo1;tab-stops:list 1.0in;&lt;br/&gt;      background:white&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Otherwise, add the number to &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;sum&lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-family:&lt;br/&gt;      &amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:&lt;br/&gt;      0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt; &lt;/ul&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in;background:&lt;br/&gt;     white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;Display&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt; the total sum.&lt;/span&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;     mso-font-kerning:0pt;mso-ligatures:none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;mso-margin-top-alt:auto;margin-bottom:6.0pt;&lt;br/&gt;     line-height:normal;mso-list:l0 level1 lfo1;tab-stops:list .5in;background:&lt;br/&gt;     white&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: Arial, sans-serif;&quot;&gt;End&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;font-family:&amp;quot;Arial&amp;quot;,sans-serif;&lt;br/&gt;     mso-fareast-font-family:&amp;quot;Times New Roman&amp;quot;;mso-font-kerning:0pt;mso-ligatures:&lt;br/&gt;     none&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;br/&gt;&lt;/ol&gt;&lt;br/&gt;&lt;br/&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="70" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
