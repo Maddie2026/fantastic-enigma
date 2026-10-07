@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="irZGHTA5CvEIwAy3QzOk">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-8" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="start" vertex="1">
+          <mxGeometry height="60" width="100" x="355" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Skulling financial sevices" vertex="1">
+          <mxGeometry height="70" width="470" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-15" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-5" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="iput years left to retirement&amp;nbsp;&lt;div&gt;years= retirement age-current&amp;nbsp;&lt;/div&gt;&lt;div&gt;age&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="300" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-9" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="input age&lt;div&gt;input retirement age&amp;nbsp;&lt;/div&gt;&lt;div&gt;input yearly contribution+3% interest&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="145" x="332.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-32" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="calculate total yearly saving +yearly contribution(3%)" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-17" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-16" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-30" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;strokeWidth=2;rounded=1;arcSize=12;" value="is retirement years=0" vertex="1">
+          <mxGeometry height="80" width="80" x="365" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-19" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-16" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=12;" value="calculate yearly contribution(+3%) x years worked" vertex="1">
+          <mxGeometry height="60" width="120" x="185" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-21" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="display total retirement amount" vertex="1">
+          <mxGeometry height="60" width="120" x="185" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-23" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="calculate total retirement amount -60,000 x 30years" vertex="1">
+          <mxGeometry height="60" width="120" x="185" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-27" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-26" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-29" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-28" value="no">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-22" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;strokeWidth=2;arcSize=12;" value="is savings less than &amp;lt;=0" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-26" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="end" vertex="1">
+          <mxGeometry height="60" width="100" x="195" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=12;" value="display retirement balance&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-34" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="hACP8-HJtG_Q1uiBuiLw-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="display total retirement&amp;nbsp; amount&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-35" edge="1" parent="1" source="hACP8-HJtG_Q1uiBuiLw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="hACP8-HJtG_Q1uiBuiLw-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hACP8-HJtG_Q1uiBuiLw-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;arcSize=12;" value="calculate total amount -60,000x (years left)" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
